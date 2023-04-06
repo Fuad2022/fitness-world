@@ -2,6 +2,8 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+  transition: 0.8ms;
 }
 .nav_menu {
   width: 100%;
@@ -212,6 +214,7 @@
   width: 100%;
   height: 50vh;
   padding: 25px;
+  margin: 25px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -237,8 +240,27 @@
   padding: 15px 35px;
   background-color: #fff;
   border-radius: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .workout_btn a:hover {
   background-color: lightseagreen;
   color: white;
+}
+.service_container {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+.service_container h1 {
+  font-size: 70px;
+  color: #ff2821;
+  text-align: center;
+}
+.service_body {
+  width: 350px;
+  height: 450px;
+  margin: 0 auto;
+  border: 1px solid gray;
+  border-radius: 9px;
 }
